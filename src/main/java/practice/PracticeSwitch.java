@@ -7,7 +7,22 @@ public class PracticeSwitch {
 		String job[] = {"勇者","バトルマスター","パラディン","海賊","魔法戦士"};
 
 		for(int i = 0; i < 5; i++) {
-			System.out.println(array[i] + ":" + job[i]);
+			switch(i) {
+			case 0:
+				System.out.println(array[i] + ":" + job[0]);
+				break;
+			case 1:
+				System.out.println(array[i] + ":" + job[1]);
+				break;
+			case 2:
+				System.out.println(array[i] + ":" + job[2]);
+				break;
+			case 3:
+				System.out.println(array[i] + ":" + job[3]);
+				break;
+			case 4:
+				System.out.println(array[i] + ":" + job[4]);
+			}
 		}
 	}
 
